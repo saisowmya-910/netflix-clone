@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    background-color:black;
+    color:white;
+    font-family:Arial;
+}
+
+header{
+    background-color:black;
+    padding:20px;
+}
+
+.logo{
+    color:red;
+    font-size:32px;
+    font-weight:bold;
+}
+
+.banner{
+    text-align:center;
+    padding:60px;
+    background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/9e3bfc21-24a8-45c3-9b7d-d6c8c9d4a8d2/1b9e73a5-84c2-4c3e-a7d3-02bfe2c1b6a8/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size:cover;
+}
+
+.title{
+    margin-left:20px;
+}
+
+.movie-row{
+    display:flex;
+    overflow-x:scroll;
+    padding:20px;
+}
+
+.movie img{
+    width:200px;
+    margin-right:10px;
+    transition:transform 0.3s;
+}
+
+.movie img:hover{
+    transform:scale(1.1);
+}
