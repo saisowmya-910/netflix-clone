@@ -38,7 +38,16 @@ header{
     margin-right:10px;
     transition:transform 0.3s;
 }
-
 .movie img:hover{
     transform:scale(1.1);
+}
+.movie-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.movie img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
 }
